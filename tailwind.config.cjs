@@ -19,6 +19,8 @@ module.exports = {
         heading2:['24px',{lineHeight:'36px',fontWeight:600}],
         heading3:['20px',{lineHeight:'30px',fontWeight:500,letterSpacing:10}],
         heading4:['16px',{lineHeight:'24px',fontWeight:500}],
+        heading5:['14px',{lineHeight:'21px',fontWeight:400}],
+        navLink:['18px',{lineHeight:'22p.23x',fontWeight:500}],
         paragraph:['16px',{lineHeight:'24px',fontWeight:400}]
         
             },
