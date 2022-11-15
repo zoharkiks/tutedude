@@ -3,7 +3,7 @@ import { images } from "../constants";
 
 const Navbar = () => {
   return (
-    <nav className="pt-[59px] pr-[35px] pl-[3px] xl:pr-[33px] xl:pl-[74px] xl:pt-6">
+    <nav className="pt-[59px] pr-[35px] pl-[3px] xl:pr-[33px] xl:pl-[74px] xl:pt-6 pb-[25px]">
       <div className="flex justify-between">
         <img src={images.logo} alt="logo" />
 
