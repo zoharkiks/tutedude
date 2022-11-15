@@ -8,7 +8,7 @@ function App() {
       {/* Navbar */}
       <Navbar />
       {/* Body */}
-      <section className="px-[34px] pt-[30px] xl:grid xl:grid-cols-2 gap-x-[93px] xl:px-[187px]">
+      <section className="px-[34px] pt-[30px]  xl:grid xl:grid-cols-2 gap-x-[93px] xl:px-[187px]">
         <WalletInfo />
         <ReferralCode />
         <Info />

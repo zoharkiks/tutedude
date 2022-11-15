@@ -1,9 +1,16 @@
 import React from "react";
 import { images } from "../constants";
 
+import {useLocation } from "react-router-dom";
+
+
 const Navbar = () => {
+
+  const location = useLocation()
+
+  console.log(location.pathname);
   return (
-    <nav className="pt-[59px] pr-[35px] pl-[3px] xl:pr-[33px] xl:pl-[74px] xl:pt-6 pb-[25px]">
+    <nav className="pt-[59px] pr-[35px] pl-[3px] xl:pr-[33px] xl:pl-[74px] xl:pt-6 pb-[25px] ">
       <div className="flex justify-between">
         <img src={images.logo} alt="logo" />
 
@@ -32,8 +39,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-heading5 mt-[51px] mx-[35px]">
-        UI/UX > Refer & Earn{" "}
+      <h1 className="text-heading5 mt-[51px] mx-[35px] xl:mx-[113px]">
+        {location.pathname === "/" ? 'UI/UX > Refer & Earn' : 'UI/UX > Refer & Earn > Friends Referred'}
       </h1>
     </nav>
   );

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const WalletInfo = () => {
   return (
-    <div className="bg-white grid grid-cols-2 xl:grid-cols-3 gap-y-5 py-5 px-[22.5px] rounded-[20px] drop-shadow-xl">
+    <div className="bg-white grid grid-cols-2 xl:grid-cols-3 gap-y-5 mb-[30px] py-5 px-[22.5px] rounded-[20px] drop-shadow-xl">
       <div className="flex flex-col">
         <h2 className="text-heading5 text-purple">Referral Earnings</h2>
         <h2 className="text-heading">₹ 2,500</h2>
