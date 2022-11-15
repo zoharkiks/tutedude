@@ -9,31 +9,32 @@ const Navbar = () => {
 
         <div className="flex items-center ">
           <div className="xl:flex hidden space-x-7 ">
-          <h2 className="text-navLink text-purple opacity-25">My Assignment</h2>
-          <h2 className="text-navLink text-purple opacity-25">Chat With Mentor</h2>
+            <a href="" className="text-navLink text-purple opacity-25">
+              My Assignment
+            </a>
+            <a href="" className="text-navLink text-purple opacity-25">
+              Chat With Mentor
+            </a>
           </div>
-         
 
           <div className="flex cursor-pointer bg-purple rounded-lg items-center  text-white  py-3 px-4 xl:bg-white ">
-        <img
-            className="h-6 w-6 hidden xl:inline mr-[6px]"
-            src={images.navPerson}
-            alt=""
-          />
-          <h2 className="text-heading4 xl:text-purple">ProfileName </h2>
-          <img
-            className="h-[7.41px] w-[12px] ml-4"
-            src={images.chevronDownIcon}
-            alt=""
-          />
+            <img
+              className="h-6 w-6 hidden xl:inline mr-[6px]"
+              src={images.navPerson}
+              alt=""
+            />
+            <h2 className="text-heading4 xl:text-purple">ProfileName </h2>
+            <img
+              className="h-[7.41px] w-[12px] ml-4"
+              src={images.chevronDownIcon}
+              alt=""
+            />
+          </div>
         </div>
-
-        </div>
-
-        
-
       </div>
-      <h1 className="text-heading5 mt-[51px] mx-[35px]">UI/UX > Refer & Earn </h1>
+      <h1 className="text-heading5 mt-[51px] mx-[35px]">
+        UI/UX > Refer & Earn{" "}
+      </h1>
     </nav>
   );
 };

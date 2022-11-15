@@ -18,7 +18,7 @@ const WalletInfo = () => {
         <h2 className="text-heading">₹ 500</h2>
       </div>
 
-      <div className="flex items-end justify-en xl:col-start-2 xl:col-span-3">
+      <div className="flex items-end justify-end xl:justify-start xl:col-start-2 xl:col-span-3">
         <Button title="Withdraw Balance" />
       </div>
     </div>
