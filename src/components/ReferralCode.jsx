@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-const ReferralCode = () => {
+const ReferralCode = ({ refCode }) => {
   const location = useLocation();
   const [referralPage, setReferralPage] = useState();
 
@@ -13,7 +13,6 @@ const ReferralCode = () => {
     }
   }, []);
 
-  console.log(referralPage);
   return (
     <div className="xl:mt-0 flex flex-col ">
       <h1
@@ -39,7 +38,7 @@ const ReferralCode = () => {
               : "bg-white w-full text-center text-heading3 py-4"
           }
         >
-          EDCH54
+          {refCode}
         </h2>
       </div>
     </div>

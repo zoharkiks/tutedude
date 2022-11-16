@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "name": "Dhiraj Saxsena",
+    "dateEnrolled": "14 Sep, 2022",
+    "coursesEnrolled": [
+        
+      { "name": "UI/UX" },
+      { "name": "Photoshop" },
+      { "name": "MERN" },
+      { "name": "Java" },
+      { "name": "Illustrator" }
+    ],
+    "refAmount":185
+  }
+  ,
+
+  {"id":2,
+    "name": "Subhash Mishra",
+    "dateEnrolled": "15 Sep, 2022",
+    "coursesEnrolled": [
+      { "name": "UI/UX" },
+      { "name": "Photoshop" },
+      { "name": "MERN" },
+      { "name": "Java" },
+      { "name": "Illustrator" },
+      { "name": "C++" },
+      { "name": "Python" },
+      { "name": "ReactJS" }
+    ],
+    "refAmount":485
+  },
+
+  {"id":3,
+    "name": "Prafull Kumar",
+    "dateEnrolled": "16 Sep, 2022",
+    "coursesEnrolled": [
+      { "name": "UI/UX" },
+      { "name": "Photoshop" },
+      { "name": "MERN" },
+      { "name": "Java" },
+      { "name": "Illustrator" },
+      { "name": "C++" },
+      { "name": "Python" },
+      { "name": "ReactJS" },
+      { "name": "ReactJS" }
+    ],
+    "refAmount":485
+  }
+]
