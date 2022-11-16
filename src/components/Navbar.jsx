@@ -1,12 +1,10 @@
 import React from "react";
 import { images } from "../constants";
 
-import {useLocation } from "react-router-dom";
-
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
-
-  const location = useLocation()
+  const location = useLocation();
 
   return (
     <nav className="pt-[59px] pr-[35px] pl-[3px] xl:pr-[33px] xl:pl-[74px] xl:pt-6 pb-[25px] ">
@@ -39,7 +37,9 @@ const Navbar = () => {
         </div>
       </div>
       <h1 className="text-heading5 mt-[51px] mx-[35px] xl:mx-[113px]">
-        {location.pathname === "/" ? 'UI/UX > Refer & Earn' : 'UI/UX > Refer & Earn > Friends Referred'}
+        {location.pathname === "/"
+          ? "UI/UX > Refer & Earn"
+          : "UI/UX > Refer & Earn > Friends Referred"}
       </h1>
     </nav>
   );

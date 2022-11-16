@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 
-const EnrolledCard = ({name,dateEnrolled,totalCourses,refAmount,courses,id}) => {
-
-console.log(courses);
-
+const EnrolledCard = ({
+  name,
+  dateEnrolled,
+  totalCourses,
+  refAmount,
+  courses,
+}) => {
   return (
-    <div className="bg-gradient-to-l from-[#800080] to-[#FF864C] rounded-[20px] text-white p-5">
+    <div className="cursor-pointer  bg-gradient-to-l from-[#800080] to-[#FF864C] rounded-[20px] text-white p-5">
       <div className="flex justify-between">
         <h2 className="text-heading4 font-bold">{name}</h2>
         <h2 className="text-heading5">{dateEnrolled}</h2>
@@ -17,11 +20,14 @@ console.log(courses);
 
       <div className="flex flex-wrap  mt-[14px] overflow-auto gap-y-[18px] mr-[20px] pr-[49px] scrollbar-thumb-beige scrollbar-thumb-rounded-full scrollbar-thin  h-24">
         {/* Course Name */}
-      {courses.map((course)=>(
-           <div key={course.id} className="flex w-max justify-center items-center ml-[10px] border-2 border-beige rounded-full py-1 px-[9px]  ">
-           <span className="text-heading5 ">{course.name}</span>
-         </div>
-      ))}
+        {courses.map((course) => (
+          <div
+            key={course.id}
+            className="flex w-max justify-center items-center ml-[10px] border-2 border-beige rounded-full py-1 px-[9px]  "
+          >
+            <span className="text-heading5 ">{course.name}</span>
+          </div>
+        ))}
       </div>
 
       <div className="flex  items-center mt-8">

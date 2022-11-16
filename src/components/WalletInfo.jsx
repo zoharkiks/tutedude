@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const WalletInfo = ({earnings,totalRef,balance}) => {
+const WalletInfo = ({ earnings, totalRef, balance }) => {
   return (
     <div className="bg-white grid grid-cols-2 xl:grid-cols-3 gap-y-5 mb-[30px] py-5 px-[22.5px] rounded-[20px] drop-shadow-xl">
       <div className="flex flex-col">

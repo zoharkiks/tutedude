@@ -15,5 +15,5 @@ export default {
   logo,
   referralIcon,
   walletIcon,
-  navPerson
+  navPerson,
 };

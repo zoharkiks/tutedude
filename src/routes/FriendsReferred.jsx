@@ -9,15 +9,18 @@ import {
 } from "../components";
 import { walletData, refCode, enrolledInfo } from "../data";
 
+
+
+
 const FriendsReferred = () => {
   const { pathname } = useLocation();
   const [data, setData] = useState(walletData[0]);
   const [code, setCode] = useState(refCode[0]);
   const [refInfo, setRefInfo] = useState(enrolledInfo);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+
+
+
 
   return (
     <div className="font-poppins">
@@ -40,18 +43,21 @@ const FriendsReferred = () => {
           Friends who Enrolled(3)
         </h1>
 
-        <div className="flex flex-col space-y-5 xl:flex-row xl:space-y-0 xl:space-x-5 xl:overflow-auto   ">
-          {refInfo.map((ref) => (
-            <EnrolledCard
-              key={ref.id}
+        <div className="flex flex-col space-y-5 xl:flex-row xl:space-y-0 xl:space-x-5   ">
+        
+            {refInfo.map((ref) => (
               
-              name={ref.name}
-              dateEnrolled={ref.dateEnrolled}
-              totalCourses={ref.coursesEnrolled.length}
-              refAmount={ref.refAmount}
-              courses={ref.coursesEnrolled}
-            />
-          ))}
+                <EnrolledCard
+                  key={ref.id}
+                  name={ref.name}
+                  dateEnrolled={ref.dateEnrolled}
+                  totalCourses={ref.coursesEnrolled.length}
+                  refAmount={ref.refAmount}
+                  courses={ref.coursesEnrolled}
+                />
+             
+            ))}
+          
         </div>
       </section>
       {/* Footer */}

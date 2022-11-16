@@ -35,7 +35,7 @@ const ReferralCode = ({ refCode }) => {
           className={
             referralPage
               ? "text-heading4 tracking-[8px] text-center"
-              : "bg-white w-full text-center text-heading3 py-4"
+              : "bg-white w-full text-center text-heading3 py-4 xl:text-purple"
           }
         >
           {refCode}
