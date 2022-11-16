@@ -5,6 +5,7 @@ import ReferralCode from "./ReferralCode";
 import Info from "./Info";
 import WalletBalance from "./WalletBalance";
 import Footer from "./Footer";
+import EnrolledCard from "./EnrolledCard";
 
 
-export { Navbar,WalletInfo ,Button,ReferralCode,Info,Footer,WalletBalance};
+export { Navbar,WalletInfo ,Button,ReferralCode,Info,Footer,WalletBalance,EnrolledCard};
